@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roger Urrutia">
+    <meta name="keywords" content="pokemon, pokemons, modern, nintendo, project, pokedex">
+    <meta name="description" content="A simple pokemon project">
+    <title>Pokesearch</title>
+    <link rel="shortcut icon" href="assets/pokeball.png" type="image/x-icon">
+    <!-- Add CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Add Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b271900939.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/pokeball.png" alt="logo">
+            <p>POKESEARCH</p>
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <input class="search-input" type="text" placeholder="Search by ID">
+                <button onclick="search()"class="submit-search"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="user">
+                <p>R</p>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pokemons -->
+    <section class="pokemons">
+        <ul class="pokemon-cards">
+        </ul>
+    </section>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
